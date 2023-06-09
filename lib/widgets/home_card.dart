@@ -13,14 +13,20 @@ class HomeCard extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Card(
-        // elevation: 20,
+        shape:
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(15.r)),
+        elevation: 10,
         child: Column(
           children: [
             Stack(
               children: [
-                Image.network(
-                  fit: BoxFit.contain,
-                  recipe.imageUrl,
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(15.r),
+                  clipBehavior: Clip.hardEdge,
+                  child: Image.network(
+                    fit: BoxFit.contain,
+                    recipe.imageUrl,
+                  ),
                 ),
                 Positioned(
                   right: 0,
@@ -36,7 +42,7 @@ class HomeCard extends StatelessWidget {
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 20.sp,
+                          fontSize: 16.sp,
                         ),
                       ),
                     ),

@@ -3,6 +3,39 @@ import '../models/recipe.dart';
 final recipesList = [
   Recipe(
     id: 'm1',
+    title: 'Chicken Fajita Pizza',
+    imageUrl:
+        'https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg',
+    duration: 30,
+    ingredients: [
+      '2 cup all purpose flour',
+      '100 ml tomato ketchup',
+      '1 tomato',
+      '2 onion',
+      '1 teaspoon chilli flakes',
+      '1 teaspoon baking powder',
+      '1 teaspoon sugar',
+      '100 gm processed cheese',
+      '4 mushroom',
+      '1/2 capsicum (green pepper)',
+      '1 teaspoon oregano',
+      '1/2 cup mozzarella',
+      '1 tablespoon dry yeast',
+      'water as required'
+    ],
+    steps: [
+      'Step 1 Prepare the pizza dough',
+      'Take a dough kneading plate and add all-purpose flour to it. Next, add salt and baking powder in it and sieve the flour once. Then, make a well in the centre and add 1 teaspoon of oil to it. On the other hand, take a little warm water and mix the yeast in it along with 1 teaspoon of sugar. Mix well and keep aside for 10-15 minutes. The yeast will rise in the meantime. Once the yeast has risen, add it to the flour knead the dough nicely using some water. Keep this dough aside for 4-6 hours. Then knead the dough once again. Now, the pizza dough is ready.',
+      'Step 2 Prepare the pizza base',
+      'Preheat the oven at 180 degree Celsius. Now, is the time to make the pizza base when the dough is ready. Dust the space a little using dry flour and take a large amount of the pizza dough. Using a rolling pin, roll this dough into a nice circular base. (Note: Make sure that the circular base is even at all ends.) Once you have made the base, use a fork and prick the base with it so that the base doesnt rise and gets baked nicely. Put it into the preheated oven and bake it 10 minutes. Now, your pizza base is ready.',
+    ],
+    isGlutenFree: false,
+    isVegan: false,
+    isVegetarian: false,
+    isLactoseFree: false,
+  ),
+  Recipe(
+    id: 'm2',
     title: 'Spaghetti with Tomato Sauce',
     imageUrl:
         'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
@@ -30,7 +63,7 @@ final recipesList = [
     isLactoseFree: true,
   ),
   Recipe(
-    id: 'm2',
+    id: 'm3',
     title: 'Toast Hawaii',
     imageUrl:
         'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
@@ -53,7 +86,7 @@ final recipesList = [
     isLactoseFree: false,
   ),
   Recipe(
-    id: 'm3',
+    id: 'm4',
     title: 'Classic Hamburger',
     imageUrl:
         'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
@@ -79,7 +112,7 @@ final recipesList = [
     isLactoseFree: true,
   ),
   Recipe(
-    id: 'm4',
+    id: 'm5',
     title: 'Wiener Schnitzel',
     imageUrl:
         'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
@@ -109,7 +142,7 @@ final recipesList = [
     isLactoseFree: false,
   ),
   Recipe(
-    id: 'm5',
+    id: 'm6',
     title: 'Salad with Smoked Salmon',
     imageUrl:
         'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
@@ -138,7 +171,7 @@ final recipesList = [
     isLactoseFree: true,
   ),
   Recipe(
-    id: 'm6',
+    id: 'm7',
     title: 'Delicious Orange Mousse',
     imageUrl:
         'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
@@ -168,7 +201,7 @@ final recipesList = [
     isLactoseFree: false,
   ),
   Recipe(
-    id: 'm7',
+    id: 'm8',
     title: 'Pancakes',
     imageUrl:
         'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
@@ -194,7 +227,7 @@ final recipesList = [
     isLactoseFree: false,
   ),
   Recipe(
-    id: 'm8',
+    id: 'm9',
     title: 'Creamy Indian Chicken Curry',
     imageUrl:
         'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
@@ -222,7 +255,7 @@ final recipesList = [
     isLactoseFree: true,
   ),
   Recipe(
-    id: 'm9',
+    id: 'm10',
     title: 'Chocolate Souffle',
     imageUrl:
         'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
@@ -266,8 +299,8 @@ final recipesList = [
     isLactoseFree: false,
   ),
   Recipe(
-    id: 'm10',
-    title: 'Asparagus Salad with Cherry Tomatoes',
+    id: 'm11',
+    title: 'Asparagus Salad with cherry tomatoes',
     imageUrl:
         'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
     duration: 30,
